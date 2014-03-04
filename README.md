@@ -12,14 +12,14 @@ usage:
 Edit subject.cfg and ciphercompare.cfg to fit your needs. It should be self
 explanatory.
 
-`bash
+```bash
 # ./ciphercompare.sh
-`
+```
 
 Results will be found in the csv you defined in ciphercompare.cfg.
 
 Known Bugs:
 -----------
 
-    * No error-handling at all.
+* No error-handling at all.
 
