@@ -3,8 +3,12 @@ ciphercompare
 
 Compares different SSL/TLS services of different providers in a generic way.
 
-ciphercompare is written in bash and requires only openssl, so it should run on
+Ciphercompare is written in bash and requires only openssl, so it should run on
 any unixoid operating system.
+
+The results will be written in a CSV-file for further interpretation.
+
+Ciphercompare does not judge the quality of any cipher!
 
 usage:
 ------
@@ -16,8 +20,10 @@ explanatory.
 
 Results will be found in the csv you defined in ciphercompare.cfg.
 
-Known Bugs:
+known bugs:
 -----------
 
 * No error-handling at all.
+
+
 

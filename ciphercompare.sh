@@ -10,8 +10,9 @@ DELAY=0
 SSL_IMPLEMENTATION="openssl"
 CIPHERS="${OPENSSL_CIPHERS[@]}"
 CSV_FILE="cipher_test.csv"
+SUBJECTS_FILE="subjects.cfg"
 
-test -f cipherscan.cfg && source cipherscan.cfg
+test -f ciphercompare.cfg && source ciphercompare.cfg
 
 function ssl_scan { # {{{
     # prepared for more implementations
