@@ -2,10 +2,13 @@
 
 DELAY=0
 SSL_IMPLEMENTATION="openssl"
-CIPHERS="${OPENSSL_PFS_CIPHERS[@]}"
+CIPHERS="${OPENSSL_CIPHERS[@]}"
 
+# This is the File, where the test-subjects are defined
 SUBJECTS_FILE="subjects.cfg"
-CSV_FILE="cipher_subjects_$(date +%Y%m%d%H%M).csv"
+
+# This is the CSV-File, where the results will end
+CSV_FILE="cipher_subjects_results_$(date +%Y%m%d%H%M).csv"
 
 
 # vim:fdm=marker:ts=4:sw=4:sts=4:ai:sta:et:ft=sh

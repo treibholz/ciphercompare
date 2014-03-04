@@ -1,3 +1,13 @@
+# Format:
+# - Separated by spaces
+# - Lines not beginning with = or + are ignored
+# - Be carefull, there is no error-handling, so if you break it, you brake it. :-)
+# 
+# = Provider_Name
+# + Service Hostname Port (SSL/STARTTLS) [STARTTLS-Protocol]
+# + ...
+#
+
 = web.de
 + IMAP imap.web.de      993 SSL
 + POP  pop3.web.de      995 SSL

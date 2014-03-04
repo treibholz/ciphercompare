@@ -14,8 +14,10 @@ explanatory.
 
    ./ciphercompare.sh
 
+Results will be found in the csv you defined in ciphercompare.cfg.
 
 Known Bugs:
 -----------
 
-    * source code is currently the only documentation
+    * No error-handling at all.
+
