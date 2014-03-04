@@ -1,6 +1,9 @@
 # This is a sh-snippet
 
+# delay between every single scan.
 DELAY=0
+
+# currently ony "openssl" is supported
 SSL_IMPLEMENTATION="openssl"
 CIPHERS="${OPENSSL_CIPHERS[@]}"
 
