@@ -12,7 +12,9 @@ usage:
 Edit subject.cfg and ciphercompare.cfg to fit your needs. It should be self
 explanatory.
 
-   ./ciphercompare.sh
+`bash
+# ./ciphercompare.sh
+`
 
 Results will be found in the csv you defined in ciphercompare.cfg.
 
