@@ -23,9 +23,9 @@
 + MX   mx01.gmx.net 25  STARTTLS smtp
 
 = 1&1
-+ IMAP imap.kundenserver.de 993 SSL
-+ POP  pop.kundenserver.de  995 SSL
-+ SMTP smtp.kundenserver.de 587 STARTTLS smtp
++ IMAP imap.1und1.de 993 SSL
++ POP  pop.1und1.de  995 SSL
++ SMTP smtp.1und1.de 587 STARTTLS smtp
 + Web  3c.1und1.de          443 SSL
 + MX   mx01.kundenserver.de 25  STARTTLS smtp
 
@@ -53,3 +53,7 @@
 + SMTP  mail.ccc.de 587 STARTTLS smtp
 + MX    mail.ccc.de 25  STARTTLS smtp
 + Web   www.ccc.de  443 SSL
+
+= Heise
++ Web   www.heise.de   443 SSL
++ MX    relay.heise.de 25 STARTTLS smtp
